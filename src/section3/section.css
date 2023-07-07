@@ -1,0 +1,59 @@
+@font-face {
+  font-family: forte;
+  src: url(FORTE.TTF);
+}
+
+.section3 {
+  background-color: #d19373;
+}
+.section3__container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.section3__items1 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.section3__item1 {
+  font-size: clamp(1.1rem, 3.9vw, 3.4rem);
+  font-family: forte;
+  color: black;
+}
+.section3__item2 {
+  font-size: clamp(1rem, 2.4vw, 2.5rem);
+  color: black;
+  font-family: "ROBOTO", sans-serif;
+  font-weight: 300;
+}
+
+.section3__items2 {
+  flex: 1;
+  height: 100%;
+}
+.section3__img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.section3__items1_2 {
+  position: absolute;
+  width: 35%;
+  bottom: 0%;
+  right: -4%;
+}
+
+.section3__items1_2_img {
+}
+@media (min-width: 1015px) {
+  .section3__container {
+    height: 430px;
+  }
+}

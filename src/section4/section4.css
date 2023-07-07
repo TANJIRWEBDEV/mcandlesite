@@ -1,0 +1,44 @@
+.section4 {
+  background-color: #ffeedb;
+  color: red;
+}
+
+.section4__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 3% 0;
+}
+
+.section4__items1 {
+  padding-bottom: 9%;
+  font-family: forte;
+  color: black;
+  font-size: clamp(1.1rem, 3.3vw, 2.5rem);
+}
+
+.section4__items2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 12%;
+}
+
+.section4__items2_img {
+  width: 100%;
+  max-width: 250px;
+}
+
+.section4__items3 {
+  padding-top: 6%;
+  padding-bottom: 1%;
+}
+
+.section4__items3 > button {
+  border: none;
+  padding: 0.5rem 2.7rem;
+  background-color: black;
+  color: white;
+}

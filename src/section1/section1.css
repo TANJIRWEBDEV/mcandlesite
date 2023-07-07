@@ -1,0 +1,19 @@
+.section1 {
+  background-color: #ffeedb;
+  color: red;
+  display: flex;
+  justify-content: center;
+  padding: 2.3%;
+}
+
+.section1 > img {
+  padding-left: 2.7rem;
+  max-width: 570px;
+}
+
+@media (max-width: 650px) {
+  .section1 > img {
+    padding-left: 0;
+    width: 90%;
+  }
+}

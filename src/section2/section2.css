@@ -1,0 +1,118 @@
+@font-face {
+  font-family: forte;
+  src: url(FORTE.TTF);
+}
+
+.section2 {
+  background-color: #ffca9f;
+}
+
+.section2__container {
+  max-width: 1200px;
+  width: 94%;
+  margin: 0 auto;
+  display: flex;
+  color: red;
+  padding: 4% 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.section__items1 {
+  flex: 1.4;
+  position: relative;
+  display: flex;
+  justify-content: end;
+}
+.section2__item1_img1 {
+  max-width: 650px;
+  width: 100%;
+}
+
+.section2__item1_img2 {
+  position: absolute;
+  top: -7%;
+  left: -9%;
+  max-width: 580px;
+  width: 90%;
+  height: 88%;
+}
+/*  */
+.section__items2 {
+  flex: 1;
+  /* padding-top: 1rem; */
+  padding-left: 1.7rem;
+  color: black;
+}
+
+.section__items2-2 {
+  font-family: "Roboto", sans-serif;
+  /* media query for font size */
+  font-size: clamp(0.9rem, 3vw, 1.9rem);
+  font-weight: 300;
+  /* padding-top: 0.5rem; */
+  padding-top: 4%;
+}
+.section__items2 > h2 {
+  font-family: forte;
+  /* font-size: 2.5rem; */
+  font-size: clamp(1.1rem, 3vw, 1.9rem);
+  color: black;
+}
+
+.section__items2-3 {
+  /* padding-top: 1.7rem; */
+  padding-top: 8%;
+  font-family: "Roboto", sans-serif;
+  font-size: clamp(0.4rem, 2vw, 1rem);
+  font-weight: 300;
+}
+.section__items2-4 {
+  margin-top: 9%;
+  background-color: black;
+  color: white;
+  width: 5rem;
+  font-size: 0.7rem;
+  padding: 0.5rem 3.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+/* 780 */
+@media (max-width: 780px) {
+  .section__items2 {
+    flex: 1;
+    /* padding-top: 1rem; */
+    padding-left: 0;
+    color: black;
+  }
+
+  .section__items2-2 {
+    font-family: "Roboto", sans-serif;
+    /* font-size: 0.9rem; */
+    font-weight: 400;
+    /* padding-top: 0.5rem; */
+    padding-top: 4%;
+  }
+  .section__items2-3 {
+    /* padding-top: 1.7rem; */
+    padding-top: 8%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    /* font-size: 0.4rem; */
+  }
+  .section__items2-4 {
+    margin-top: 9%;
+    background-color: black;
+    color: white;
+    width: 3rem;
+    font-size: 0.7rem;
+    padding: 0.2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 0.6rem;
+  }
+}
