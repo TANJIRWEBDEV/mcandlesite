@@ -9,9 +9,17 @@ const Section4 = () => {
       <div className="section4__container">
         <div className="section4__items1">NEW ARRIVAL</div>
         <div className="section4__items2">
-          <img src={img1} alt="" className="section4__items2_img" />
-          <img src={img2} alt="" className="section4__items2_img" />
-          <img src={img3} alt="" className="section4__items2_img" />
+         <span>
+            {" "}
+            <img src={img1} alt="" className="section4__items2_img" />
+          </span>
+
+          <span>
+            <img src={img2} alt="" className="section4__items2_img" />
+          </span>
+          <span>
+            <img src={img3} alt="" className="section4__items2_img" />
+          </span>
         </div>
         <div className="section4__items3">
           <button>SHOP</button>
